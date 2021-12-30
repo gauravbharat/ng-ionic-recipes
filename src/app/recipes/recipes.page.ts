@@ -13,7 +13,7 @@ export class RecipesPage implements OnInit {
       title: 'Schnitzel',
       imageUrl:
         'https://www.daringgourmet.com/wp-content/uploads/2014/03/Schnitzel-5.jpg',
-      ingredients: ['French Frields', 'Pork Meat', 'Salad'],
+      ingredients: ['French Fries', 'Pork Meat', 'Salad'],
     },
     {
       id: 'r2',
