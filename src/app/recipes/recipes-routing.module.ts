@@ -9,11 +9,16 @@ const routes: Routes = [
     component: RecipesPage,
   },
   {
-    path: ':recipeId',
+    path: 'recipe-detail/:recipeId',
     loadChildren: () =>
       import('./recipe-detail/recipe-detail.module').then(
         (m) => m.RecipeDetailPageModule
       ),
+  },
+  {
+    path: '**',
+    redirectTo: '',
+    pathMatch: 'full',
   },
 ];
 
